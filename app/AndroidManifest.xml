@@ -1,0 +1,23 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <queries>
+        <package android:name="com.activision.callofduty.shooter" />
+        <package android:name="com.garena.game.codm" />
+        <package android:name="com.roblox.client" />
+    </queries>
+    <uses-feature android:name="android.hardware.screen.portrait" android:required="false" />
+    <application
+        android:theme="@android:style/Theme.Material.NoActionBar"
+        android:label="CAPTAIN BOOST"
+        android:usesCleartextTraffic="false"
+        android:allowBackup="false"
+        android:supportsRtl="true">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
